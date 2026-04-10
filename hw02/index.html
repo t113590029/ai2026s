@@ -32,7 +32,7 @@
   }
 
   @font-face {
-    font-family:'113590029';
+    font-family:'Font_113590029';
     src: url(https://t113590029.github.io/ai2026s/hw02/Font_113590029.woff2); 
   }
 
@@ -96,11 +96,11 @@
   body {
     background-color: rgb(106, 76, 156); /* #6A4C9C */
     color: rgb(106, 76, 156);
-    font-family: '113590029', 'Noto Sans JP', serif;
+    font-family: 'CircleFont', 'Noto Sans JP', serif;
   }
 
   p{
-    font-family:'113590029', 'Noto Sans JP', serif;
+    font-family:'Font_113590029';
   }
 
   .container-fluid {
@@ -169,8 +169,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      這是第二個作業，也是需要心得報告 105 字，這邊示範作業二的心得書寫乙次。這次生成自己的手寫體，算是幫自己努力手刻的字跡，留下一個美好的回憶，在這個數位時代，相片只剩像素的集合，藉由這次的經驗，使自己書寫的內容化身成為流暢的貝茲曲線，為數位時代留下一些痕跡，為之後的作業鋪上一層伏筆
-    </div>
+      這是第二個作業的心得，第二個作業的內容是把第一次作業寫好的稿紙，經過裁切與向量化處理後，把每一個字做成獨立的svg向量化檔案，再將這些向量化的檔案合併成一個字體檔。步驟分為裁切、向量化與打包，裁切的部分需要調整許多參數，如果沒有調整好的話，裁切出來的字就會過大或過小。    </div>
   </div>
 
   <!-- ------------------------------------------------>
@@ -178,7 +177,7 @@
     <div class="col-md-12 twenty">
       <span>字體檔位置連結：授權至SIL開源字型</span>
       <br>
-      <button type="button" onclick="location.href='https://github.com/t113590029/ai2026s/blob/main/hw02/Font_113590029.ttf'">
+      <button type="button" onclick="location.href='https://github.com/t113590023-dev/ai2026s/blob/main/hw02/113590023.ttf'">
         前往查看字型
       </button>
       <div>(p.s 請記得修改網址)</div>
@@ -197,21 +196,21 @@
         <tr>
           <td rowspan="4" id="myTotal"></td>
           <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
-          <td id='m1'>4</td>
-          <td>Simple baseline - 描述</td>
+          <td id='m1'>0</td>
+          <td>Simple baseline - 無</td>
         </tr>
         <tr>
           <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
-          <td id='m2'>4</td>
-          <td>Medium baseline - 描述</td>
+          <td id='m2'>0</td>
+          <td>Medium baseline - 無</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
-          <td id='m3'>2</td>
-          <td>Strong baseline - 描述</td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3" checked></td>
+          <td id='m3'>10</td>
+          <td>Strong baseline - 得到個人手寫字體檔</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4"></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
