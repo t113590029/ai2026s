@@ -153,7 +153,10 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
+      這次作業讓我覺得很有趣。比起環境設定，最讓我印象深刻的是寫提示詞的過程——
+      要把心中想像的角色準確轉換成英文描述，並兼顧四季服裝與場景的變化，
+      意外地需要反覆嘗試才能貼近原本的想法。看著角色逐漸「動」起來，
+      從靜止畫面到流動影片，這個從文字到動畫的過程讓我很有成就感。
     </div>
   </div>
 
@@ -169,22 +172,22 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>4</td>
-          <td>Simple baseline - 描述</td>
+          <td>Simple baseline - Comfy UI 環境設定完成</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
           <td id='m2'>4</td>
-          <td>Medium baseline - 描述</td>
+          <td>Medium baseline - 生成角色的圖片</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3" checked></td>
           <td id='m3'>2</td>
-          <td>Strong baseline - 描述</td>
+          <td>Strong baseline - 生成完整角色動畫</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4"></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -195,13 +198,87 @@
 
   <!-- ------------------------------------------------>
   <div class="row hw12 bottomrow">
-    <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+    <div class="col-md-12 twenty" style="background-color:#00AC48;">
+      <figcaption>Comfy UI 環境設定完成</figcaption>
+      <a href="https://civitai.com/models/61643?modelVersionId=67841">CheckPoint: based66_v30</a><br>
+      <a href="https://civitai.com/models/69977/chibi-laugh">LoRA:  chibi-laugh</a><br>  
+      <img src="1.png"  width="100%"><br>
+    </div>
+  </div>
+  
+  <div class="row hw12 bottomrow">
+    <div class="col-md-4 twenty" style="background-color:#ff0000;">
+      <figcaption>生成角色的圖片 - 1</figcaption>
+      <img src="2.png"  width="100%"><br>
+    </div>
+    <div class="col-md-4 twenty" style="background-color:#ff0000;">
+      <figcaption>生成角色的圖片 - 2</figcaption>
+      <img src="4.png"  width="100%"><br>
+    </div>
+    <div class="col-md-4 twenty" style="background-color:#ff0000;">
+      <figcaption>生成角色的圖片 - 3</figcaption>
+      <img src="6.png"  width="100%"><br>
     </div>
   </div>
 
+  
+  <div class="row hw12 bottomrow">
+    <div class="col-md-4 twenty" style="background-color:#7030a0;">
+      <figcaption>生成完整角色動畫 - 1</figcaption>
+      <img src="3.gif" width="100%"><br>
+      <td> 使用提示詞:
+          "0"  :"1girl, brown hair, braid, light cardigan, floral skirt, spring forest, blooming flowers, soft sunlight, walking path, smile",
+          "10" :"1girl, brown hair, braid, light cardigan, floral skirt, spring forest, blooming flowers, soft sunlight, walking path, smile",
+          "20" :"1girl, brown hair, braid, light cardigan, floral skirt, spring forest, blooming flowers, soft sunlight, walking path, smile",
+          "30" :"1girl, brown hair, braid, sleeveless dress, straw hat, summer forest, lush green canopy, dappled sunlight, butterflies",
+          "40" :"1girl, brown hair, braid, sleeveless dress, straw hat, summer forest, lush green canopy, dappled sunlight, butterflies",
+          "50" :"1girl, brown hair, braid, sleeveless dress, straw hat, summer forest, lush green canopy, dappled sunlight, butterflies",
+          "60" :"1girl, brown hair, braid, knit sweater, scarf, autumn forest, falling leaves, golden light, misty atmosphere",
+          "70" :"1girl, brown hair, braid, knit sweater, scarf, autumn forest, falling leaves, golden light, misty atmosphere",
+          "80" :"1girl, brown hair, braid, knit sweater, scarf, autumn forest, falling leaves, golden light, misty atmosphere",
+          "90" :"1girl, brown hair, braid, puffy down coat, wool hat, mittens, winter forest, snow covered trees, falling snowflakes, soft winter light",
+          "100":"1girl, brown hair, braid, puffy down coat, wool hat, mittens, winter forest, snow covered trees, falling snowflakes, soft winter light",
+          "110":"1girl, brown hair, braid, puffy down coat, wool hat, mittens, winter forest, snow covered trees, falling snowflakes, soft winter light"
+      </td>
+    </div>
+    <div class="col-md-4 twenty" style="background-color:#7030a0;">
+      <figcaption>生成完整角色動畫 - 2</figcaption>
+      <img src="5.gif" width="100%"><br>
+      <td> 使用提示詞:
+          "0"  :"1girl, blonde wavy hair, white sundress, cute, sitting in flower garden, golden retriever puppy, spring blossoms, soft sunlight, smile",
+          "10" :"1girl, blonde wavy hair, white sundress, cute, sitting in flower garden, golden retriever puppy, spring blossoms, soft sunlight, smile",
+          "20" :"1girl, blonde wavy hair, white sundress, cute, sitting in flower garden, golden retriever puppy, spring blossoms, soft sunlight, smile",
+          "30" :"1girl, blonde wavy hair, light sundress, straw hat, cute, sunflower field, golden retriever puppy running, summer sunlight, laughing",
+          "40" :"1girl, blonde wavy hair, light sundress, straw hat, cute, sunflower field, golden retriever puppy running, summer sunlight, laughing",
+          "50" :"1girl, blonde wavy hair, light sundress, straw hat, cute, sunflower field, golden retriever puppy running, summer sunlight, laughing",
+          "60" :"1girl, blonde wavy hair, knit cardigan, cute, autumn garden, fallen leaves, golden retriever puppy, warm golden light, gentle smile",
+          "70" :"1girl, blonde wavy hair, knit cardigan, cute, autumn garden, fallen leaves, golden retriever puppy, warm golden light, gentle smile",
+          "80" :"1girl, blonde wavy hair, knit cardigan, cute, autumn garden, fallen leaves, golden retriever puppy, warm golden light, gentle smile",
+          "90" :"1girl, blonde wavy hair, puffy coat, wool hat, cute, snowy garden, golden retriever puppy, snowflakes falling, warm smile",
+          "100":"1girl, blonde wavy hair, puffy coat, wool hat, cute, snowy garden, golden retriever puppy, snowflakes falling, warm smile",
+          "110":"1girl, blonde wavy hair, puffy coat, wool hat, cute, snowy garden, golden retriever puppy, snowflakes falling, warm smile"
+      </td>
+    </div>
+    <div class="col-md-4 twenty" style="background-color:#7030a0;">
+      <figcaption>生成完整角色動畫 - 3</figcaption>
+      <img src="7.gif" width="100%"><br>
+      <td> 使用提示詞:
+          "0"  :"1girl, ash brown hair, cat ear headband, cute, cozy cafe interior, light sweater, holding warm drink, spring sunlight through window, smile",
+          "10" :"1girl, ash brown hair, cat ear headband, cute, cozy cafe interior, light sweater, holding warm drink, spring sunlight through window, smile",
+          "20" :"1girl, ash brown hair, cat ear headband, cute, cozy cafe interior, light sweater, holding warm drink, spring sunlight through window, smile",
+          "30" :"1girl, ash brown hair, cat ear headband, cute, cafe terrace, short sleeve blouse, iced drink, bright summer day, cheerful",
+          "40" :"1girl, ash brown hair, cat ear headband, cute, cafe terrace, short sleeve blouse, iced drink, bright summer day, cheerful",
+          "50" :"1girl, ash brown hair, cat ear headband, cute, cafe terrace, short sleeve blouse, iced drink, bright summer day, cheerful",
+          "60" :"1girl, ash brown hair, cat ear headband, cute, cozy cafe, oversized sweater, latte art, warm autumn light, relaxed smile",
+          "70" :"1girl, ash brown hair, cat ear headband, cute, cozy cafe, oversized sweater, latte art, warm autumn light, relaxed smile",
+          "80" :"1girl, ash brown hair, cat ear headband, cute, cozy cafe, oversized sweater, latte art, warm autumn light, relaxed smile",
+          "90" :"1girl, ash brown hair, cat ear headband, cute, cafe by the window, knit scarf, hot chocolate, snow falling outside, cozy smile",
+          "100":"1girl, ash brown hair, cat ear headband, cute, cafe by the window, knit scarf, hot chocolate, snow falling outside, cozy smile",
+          "110":"1girl, ash brown hair, cat ear headband, cute, cafe by the window, knit scarf, hot chocolate, snow falling outside, cozy smile"
+      </td>
+    </div>
+  </div>
+  <!-- ------------------------------------------------>
   <!-- ------------------------------------------------>
 
   <!-- ------------------------------------------------>
@@ -252,4 +329,3 @@
 
 </body>
 </html>
-
